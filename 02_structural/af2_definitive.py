@@ -44,9 +44,9 @@ STRUCT_DIR = Path.home() / "Downloads"
 import os as _os
 MONO_DIR = Path(_os.environ.get("CALR_MONO_DIR",
     str(Path(__file__).resolve().parents[1] / "data" / "structures" / "monomer_pdbs")))
-MONO_ZIP = STRUCT_DIR / "results_monomers-20260407T225354Z-3-001.zip"
+MONO_ZIP = STRUCT_DIR / "results_monomers_clean.zip"
 HOMO_ZIP1 = STRUCT_DIR / "crosslinks_homodimers-20260403T091617Z-3-001.zip"
-HOMO_ZIP2 = STRUCT_DIR / "results_homodimers-20260407T223047Z-3-001.zip"
+HOMO_ZIP2 = STRUCT_DIR / "results_homodimers_clean.zip"
 
 ANCHOR = "RRMMRTKMRMRRMRRTRRKMRR"
 AA3TO1 = {'ALA':'A','CYS':'C','ASP':'D','GLU':'E','PHE':'F','GLY':'G','HIS':'H',
