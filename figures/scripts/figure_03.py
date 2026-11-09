@@ -70,7 +70,7 @@ FEAT_DISPLAY = {
     "f_S": "Ser fraction", "uversky_llps": "Uversky LLPS metric",
     "RRR_n": "RRR motif count", "entropy_novel": "Sequence entropy",
     "beta_novel": "Beta-sheet propensity", "polycation_len": "Longest polycation run",
-    "n_rtrr": "RTRR motif count", "az_charge_-4": "Charge at az pos \u22124",
+    "n_rtrr": "RXRR motif count", "az_charge_-4": "Charge at az pos \u22124",
     "az_charge_-11": "Charge at az pos \u221211", "az_charge_-15": "Charge at az pos \u221215",
 }
 

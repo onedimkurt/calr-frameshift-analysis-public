@@ -90,7 +90,7 @@ FEAT_DISPLAY = {
     "f_S": "Ser fraction", "uversky_llps": "Uversky LLPS metric",
     "RRR_n": "RRR motif count", "entropy_novel": "Sequence entropy",
     "beta_novel": "Beta-sheet propensity", "polycation_len": "Longest polycation run",
-    "n_rtrr": "RTRR motif count",
+    "n_rtrr": "RXRR motif count",
 }
 
 def sig_label(p):
