@@ -93,12 +93,20 @@ four further discrepancies, none of which involved the regenerated statistics:
   legend. `AF2_DEFINITIVE.tsv` and Supplementary Table S7 give 0.0681; 0.055 is the
   Type 1-B value repeated.
 * Supplementary Figure S10 was cited for "mean inter-chain Calpha-Calpha distance
-  profiles". No distance profile is computed anywhere in the pipeline;
-  `figure_s_contact_comprehensive.py` plots contact region pairs, contact frequency,
-  contact maps and hotspot residues. The sentence now describes contact frequencies.
-  The reciprocal pattern it reports is unchanged and reproduces exactly: 723 / 239 /
-  398 total contacts and 98.9% / 66.9% / 11.6% post-anchor shares for Type 1-A /
-  Type 1-B / Type 2.
+  profiles". S10 as submitted is the contact figure
+  (`figure_s_contact_comprehensive.py`: contact region pairs, contact frequency,
+  contact maps, hotspot residues). The distance-profile analysis the sentence
+  described does exist (`figure_s_interchain_distance.py`, with
+  `interchain_distance_audit.tsv`), but its figure is not among the twelve
+  supplementary figures and the script is not part of this repository, so the
+  citation pointed at a figure that does not show it. The sentence now describes the
+  contact frequencies that S10 does show. Both analyses give the same reciprocal
+  pattern: contacts are 723 / 239 / 398 in total with 98.9% / 66.9% / 11.6%
+  post-anchor shares for Type 1-A / Type 1-B / Type 2, and mean post-anchor
+  inter-chain distance is 35.1 / 114.1 / 95.4 A.
+  An earlier version of this entry said no distance profile was computed anywhere in
+  the pipeline. That was wrong; the search that led to it looked in the wrong
+  directory.
 * Three feature directions and two approach-zone position lists had the groups
   reversed relative to the feature matrix: approach zone length is enriched in
   Type 1-A, while mean hydropathy and the charge-hydropathy disorder-boundary metric
